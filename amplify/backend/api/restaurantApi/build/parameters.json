@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "restaurantApi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-amplifyapp-dev-143316-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/e174bc20c8b450e338181c5406f341f3d6acf580"
+}
