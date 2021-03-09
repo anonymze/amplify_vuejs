@@ -22,7 +22,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-143316-deployment/amplify-cfn-templates/auth/amplifyapp7af31fbf-cloudformation-template.yml",
         "logicalId": "authamplifyapp7af31fbf"
       },
-      "lastPushTimeStamp": "2021-02-11T00:32:24.610Z",
+      "lastPushTimeStamp": "2021-02-14T18:47:01.226Z",
       "output": {
         "UserPoolId": "eu-west-1_mdwK5Qybi",
         "AppClientIDWeb": "3rqjq2a79pkohapv6urh9qqpgb",
@@ -57,8 +57,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-143316-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apirestaurantApi"
       },
-      "lastPushTimeStamp": "2021-02-11T00:32:24.613Z",
-      "lastPushDirHash": "H6x8if8NkUC5LeQkVmJe9Ic0EQs="
+      "lastPushTimeStamp": "2021-02-14T18:47:01.910Z",
+      "lastPushDirHash": "r5zfN9X2n+O3I2ZE7Ljdq6ZjyWg="
     }
   },
   "hosting": {
@@ -69,7 +69,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-143316-deployment/amplify-cfn-templates/hosting/template.json",
         "logicalId": "hostingS3AndCloudFront"
       },
-      "lastPushTimeStamp": "2021-02-11T00:32:24.621Z",
+      "lastPushTimeStamp": "2021-02-14T18:47:01.232Z",
       "output": {
         "S3BucketSecureURL": "https://amplifyapp-20210211012931-hostingbucket-dev.s3.amazonaws.com",
         "WebsiteURL": "http://amplifyapp-20210211012931-hostingbucket-dev.s3-website-eu-west-1.amazonaws.com",

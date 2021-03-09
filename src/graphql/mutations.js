@@ -10,7 +10,7 @@ export const createRestaurant = /* GraphQL */ `
       id
       name
       description
-      city
+      plateforme
       createdAt
       updatedAt
     }
@@ -25,7 +25,7 @@ export const updateRestaurant = /* GraphQL */ `
       id
       name
       description
-      city
+      plateforme
       createdAt
       updatedAt
     }
@@ -40,7 +40,7 @@ export const deleteRestaurant = /* GraphQL */ `
       id
       name
       description
-      city
+      plateforme
       createdAt
       updatedAt
     }

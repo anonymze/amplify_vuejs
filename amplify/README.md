@@ -9,6 +9,8 @@ amplify add auth
 
 /* !! ajouter les dernièrs configs à chaque fois !! */
 amplify push
+/* récupérer derniere config */
+amplify pull
 
 /* interface vue/aws connexion
 yarn add @aws-amplify/ui-components @aws-amplify/ui-vue

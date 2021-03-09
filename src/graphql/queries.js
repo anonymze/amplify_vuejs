@@ -7,7 +7,7 @@ export const getRestaurant = /* GraphQL */ `
       id
       name
       description
-      city
+      plateforme
       createdAt
       updatedAt
     }
@@ -24,7 +24,7 @@ export const listRestaurants = /* GraphQL */ `
         id
         name
         description
-        city
+        plateforme
         createdAt
         updatedAt
       }

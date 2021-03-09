@@ -2,7 +2,7 @@ type Restaurant {
   id: ID!
   name: String!
   description: String!
-  city: String!
+  plateforme: String!
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
 }
@@ -94,7 +94,7 @@ input ModelRestaurantFilterInput {
   id: ModelIDInput
   name: ModelStringInput
   description: ModelStringInput
-  city: ModelStringInput
+  plateforme: ModelStringInput
   and: [ModelRestaurantFilterInput]
   or: [ModelRestaurantFilterInput]
   not: ModelRestaurantFilterInput
@@ -122,14 +122,14 @@ input CreateRestaurantInput {
   id: ID
   name: String!
   description: String!
-  city: String!
+  plateforme: String!
 }
 
 input UpdateRestaurantInput {
   id: ID!
   name: String
   description: String
-  city: String
+  plateforme: String
 }
 
 input DeleteRestaurantInput {
@@ -145,7 +145,7 @@ type Mutation {
 input ModelRestaurantConditionInput {
   name: ModelStringInput
   description: ModelStringInput
-  city: ModelStringInput
+  plateforme: ModelStringInput
   and: [ModelRestaurantConditionInput]
   or: [ModelRestaurantConditionInput]
   not: ModelRestaurantConditionInput
